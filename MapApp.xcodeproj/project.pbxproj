@@ -14,6 +14,8 @@
 		98BA4A43207EBFED007BE934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BA4A41207EBFED007BE934 /* LaunchScreen.storyboard */; };
 		98BA4A4E207EBFED007BE934 /* MapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA4A4D207EBFED007BE934 /* MapAppTests.swift */; };
 		98BA4A59207EBFED007BE934 /* MapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA4A58207EBFED007BE934 /* MapAppUITests.swift */; };
+		98E02016207EC20900BF3268 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E02015207EC20900BF3268 /* MapViewController.swift */; };
+		98E02018207EC69900BF3268 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E02017207EC69900BF3268 /* PinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		98BA4A54207EBFED007BE934 /* MapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BA4A58207EBFED007BE934 /* MapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppUITests.swift; sourceTree = "<group>"; };
 		98BA4A5A207EBFED007BE934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E02015207EC20900BF3268 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		98E02017207EC69900BF3268 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				98BA4A38207EBFEB007BE934 /* AppDelegate.swift */,
 				98BA4A3A207EBFEB007BE934 /* ViewController.swift */,
 				98BA4A3C207EBFEB007BE934 /* Main.storyboard */,
+				98E02017207EC69900BF3268 /* PinView.swift */,
+				98E02015207EC20900BF3268 /* MapViewController.swift */,
 				98BA4A3F207EBFED007BE934 /* Assets.xcassets */,
 				98BA4A41207EBFED007BE934 /* LaunchScreen.storyboard */,
 				98BA4A44207EBFED007BE934 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BA4A3B207EBFEB007BE934 /* ViewController.swift in Sources */,
+				98E02016207EC20900BF3268 /* MapViewController.swift in Sources */,
+				98E02018207EC69900BF3268 /* PinView.swift in Sources */,
 				98BA4A39207EBFEB007BE934 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
